@@ -3,6 +3,8 @@ body {
     flex-direction: column;
 }
 
+/* Header section */
+
 .header {
     background-color: #1F2937;
     font-size: 24px;
@@ -22,6 +24,44 @@ a {
     padding-left: 15px;
 }
 
+/* Awesome section */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.left {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+.intro button {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* Random information section */
 
 .rando {
     display: flex;
@@ -58,6 +98,10 @@ a {
     margin: 5px;
     border-radius: 10px;
 }
+
+
+
+/* Quote section */
 
 .quote {
     padding-left: 300px;
