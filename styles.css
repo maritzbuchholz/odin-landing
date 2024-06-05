@@ -43,6 +43,13 @@ a {
     justify-content: space-between;
 }
 
+.one{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .right {
     width: 400px;
     height: 200px;
