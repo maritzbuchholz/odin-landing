@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 530px;
 }
 
 a {
@@ -41,6 +42,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 260px;
 }
 
 .intro .one{
@@ -66,6 +68,7 @@ a {
     background-color: #3882F6;
     border: 3px solid #3882F6;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 /* Random information section */
@@ -118,6 +121,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 400px;
 }
 
 .quote .one {
@@ -160,13 +164,15 @@ a {
     background-color: #3882F6;
     border: 2px solid white;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .register .left {
     color: #F9FAF8;
+    min-width: 160px;
 }
 
-.left .action {
+.register .left .action {
     font-size: 24px;
     font-weight: bolder;
 }
