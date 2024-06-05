@@ -35,7 +35,7 @@ a {
     color: white;
 }
 
-.left {
+.intro .left {
     width: 400px;
     height: 200px;
     display: flex;
@@ -43,14 +43,14 @@ a {
     justify-content: space-between;
 }
 
-.one{
+.intro .one{
     margin: 0px;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.right {
+.intro .right {
     width: 400px;
     height: 200px;
     display: flex;
@@ -116,8 +116,8 @@ a {
     background-color: #E5E7EB;
     height: 400px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .quote .one {
@@ -131,6 +131,51 @@ a {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+/* Registration section */
+
+.register {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 700px;
+    background-color: #3882F6;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.register button {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.register .left {
+    color: #F9FAF8;
+}
+
+.left .action {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.register p {
+    margin: 0px;
+}
+
+/* Footer section */
 
 .footer {
     background-color: #1F2937;
